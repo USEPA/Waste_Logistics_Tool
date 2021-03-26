@@ -1,0 +1,10 @@
+Index/
+__pycache__/
+ImportLog/
+scratch.gdb/
+scratch/
+*.gdb
+.pyHistory
+*.pyc
+DefaultToolBox.tbx
+toolbox.log

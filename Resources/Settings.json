@@ -1,0 +1,535 @@
+{
+    "Conditions": [
+       {
+          "ConditionID": "Default"
+         ,"RoadTolls": 50
+         ,"MiscCost": 500
+         ,"TotalCostMultiplier": 0.25
+         ,"VehicleDeconCost": 1000.00
+         ,"StagingSiteCost": 2000.00
+         ,"NumberofTrucksAvailable": 30
+         ,"DrivingHours": 12
+       }
+    ]
+   ,"ShipmentLoading": [
+      {
+          "FactorID": "Default"
+         ,"rows": [
+             {
+                "Vehicle": "Truck"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"LoadingRate": 23.68 
+               ,"UnitPerShipment": "yd3"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"LoadingRate": 4787.523641
+               ,"UnitPerShipment": "gal"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"LoadingRate": 3.8
+               ,"UnitPerShipment": "yd3"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"LoadingRate": 770
+               ,"UnitPerShipment": "gal"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Solid"
+               ,"LoadingRate": 23.68 
+               ,"UnitPerShipment": "yd3"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Liquid"
+               ,"LoadingRate": 4787.52459022 
+               ,"UnitPerShipment": "gal"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"WasteType": "Municipal Solid Waste (MSW)"
+               ,"WasteMedium": "Volume Solid"
+               ,"LoadingRate": 40
+               ,"UnitPerShipment": "yd3"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"WasteType": "Construction and Demolition"
+               ,"WasteMedium": "Volume Solid"
+               ,"LoadingRate": 40
+               ,"UnitPerShipment": "yd3"
+             }
+         ]
+      }
+   ]
+   ,"CPLMUnitRates": [
+      {
+          "FactorID": "Default"
+         ,"rows": [
+             {
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 0
+               ,"CPLMDist_Upper": 30
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 5.94
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 0
+               ,"CPLMDist_Upper": 30
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"CPLMUnit_Rate": 5.94
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 0
+               ,"CPLMDist_Upper": 30
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 11.7
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 0
+               ,"CPLMDist_Upper": 30
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"CPLMUnit_Rate": 11.7
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 0
+               ,"CPLMDist_Upper": 30
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 3
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 0
+               ,"CPLMDist_Upper": 30
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Liquid"
+               ,"CPLMUnit_Rate": 3
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 0
+               ,"CPLMDist_Upper": 30
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Municipal Solid Waste (MSW)"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 0
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 0
+               ,"CPLMDist_Upper": 30
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Construction and Demolition"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 0
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 30
+               ,"CPLMDist_Upper": 200
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 4.98
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 30
+               ,"CPLMDist_Upper": 200
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"CPLMUnit_Rate": 4.98
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 30
+               ,"CPLMDist_Upper": 200
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 7.85
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 30
+               ,"CPLMDist_Upper": 200
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"CPLMUnit_Rate": 7.85
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 30
+               ,"CPLMDist_Upper": 200
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 2.50
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 30
+               ,"CPLMDist_Upper": 200
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Liquid"
+               ,"CPLMUnit_Rate": 2.50
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 30
+               ,"CPLMDist_Upper": 200
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Municipal Solid Waste (MSW)"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 0
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 30
+               ,"CPLMDist_Upper": 200
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Construction and Demolition"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 0
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 200
+               ,"CPLMDist_Upper": 9999999
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 4.00
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 200
+               ,"CPLMDist_Upper": 9999999
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"CPLMUnit_Rate": 4.00
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 200
+               ,"CPLMDist_Upper": 9999999
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 4.90
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 200
+               ,"CPLMDist_Upper": 9999999
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"CPLMUnit_Rate": 4.90
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 200
+               ,"CPLMDist_Upper": 9999999
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 1.95
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 200
+               ,"CPLMDist_Upper": 9999999
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Liquid"
+               ,"CPLMUnit_Rate": 1.95
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 200
+               ,"CPLMDist_Upper": 9999999
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Municipal Solid Waste (MSW)"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 0
+               ,"Unit": "cost_per_mi"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"CPLMDist_Lower": 200
+               ,"CPLMDist_Upper": 9999999
+               ,"CPLMUnit": "mi"
+               ,"WasteType": "Construction and Demolition"
+               ,"WasteMedium": "Volume Solid"
+               ,"CPLMUnit_Rate": 0
+               ,"Unit": "cost_per_mi"
+             }
+         ]
+      }
+   ]
+   ,"FixedTransCost": [
+      {
+          "FactorID": "Default"
+         ,"rows": [
+             {
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per shipment"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": 880
+               ,"Unit": "shipment"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per shipment"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"FixedCost_Value": 880
+               ,"Unit": "shipment"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per shipment"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": 2480
+               ,"Unit": "shipment"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per shipment"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"FixedCost_Value": 2480
+               ,"Unit": "shipment"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per shipment"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": null
+               ,"Unit": "shipment"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per shipment"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Liquid"
+               ,"FixedCost_Value": null
+               ,"Unit": "shipment"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per shipment"
+               ,"WasteType": "Municipal Solid Waste (MSW)"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": null
+               ,"Unit": "shipment"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per shipment"
+               ,"WasteType": "Construction and Demolition"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": null
+               ,"Unit": "shipment"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per hour"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": null
+               ,"Unit": "hour"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per hour"
+               ,"WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"FixedCost_Value": null
+               ,"Unit": "hour"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per hour"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": null
+               ,"Unit": "hour"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per hour"
+               ,"WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"FixedCost_Value": null
+               ,"Unit": "hour"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per hour"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": 55.9
+               ,"Unit": "hour"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per hour"
+               ,"WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Liquid"
+               ,"FixedCost_Value": 55.9
+               ,"Unit": "hour"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per hour"
+               ,"WasteType": "Municipal Solid Waste (MSW)"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": 55.9
+               ,"Unit": "hour"
+             }
+            ,{
+                "Vehicle": "Truck"
+               ,"FixedCost_Type": "Per hour"
+               ,"WasteType": "Construction and Demolition"
+               ,"WasteMedium": "Volume Solid"
+               ,"FixedCost_Value": 55.9
+               ,"Unit": "hour"
+             }
+         ]
+      }
+    ]
+   ,"LaborCosts": [
+      {
+          "FactorID": "Default"
+         ,"rows": [
+             {
+                "LaborCategory": "Heavy and Tractor-Trailer Truck Drivers"
+               ,"LaborCost": 21.39
+               ,"Unit": "hr"
+             }
+            ,{
+                "LaborCategory": "Tank Car, Truck, and Ship Loaders"
+               ,"LaborCost": 19.37
+               ,"Unit": "hr"
+             }
+         ]
+      }
+    ]
+   ,"DisposalFees": [
+      {
+          "FactorID": "Default"
+         ,"rows": [
+             {
+                "WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"DisposalCost": 46.40635
+               ,"Unit": "cost_per_yd3"
+             }
+            ,{
+                "WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"DisposalCost": 0.2085
+               ,"Unit": "cost_per_gal"
+             }
+            ,{
+                "WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"DisposalCost": 87.87184
+               ,"Unit": "cost_per_yd3"
+             }
+            ,{
+                "WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"DisposalCost": 0.2085
+               ,"Unit": "cost_per_gal"
+             }
+            ,{
+                "WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Solid"
+               ,"DisposalCost": 37.1251
+               ,"Unit": "cost_per_yd3"
+             }
+            ,{
+                "WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Liquid"
+               ,"DisposalCost": 0.1668
+               ,"Unit": "cost_per_gal"
+             }
+            ,{
+                "WasteType": "Municipal Solid Waste (MSW)"
+               ,"WasteMedium": "Volume Solid"
+               ,"DisposalCost": 12.2711
+               ,"Unit": "cost_per_yd3"
+             } 
+            ,{
+                "WasteType": "Construction and Demolition"
+               ,"WasteMedium": "Volume Solid"
+               ,"DisposalCost": 12.2711
+               ,"Unit": "cost_per_yd3"
+             }
+         ]
+      }
+    ]
+   ,"SystemCache": {
+       "Default_Unit_System": "Metric"
+      ,"Default_NumberOfFacilities": 3
+    }
+}
