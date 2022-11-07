@@ -1,5 +1,6 @@
 Index/
 __pycache__/
+.backups/
 ImportLog/
 scratch.gdb/
 scratch/
@@ -8,3 +9,6 @@ scratch/
 *.pyc
 DefaultToolBox.tbx
 toolbox.log
+*.sde
+data/IWasteVintage_Remote.json
+GPMessages/

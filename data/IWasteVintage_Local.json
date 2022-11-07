@@ -1,0 +1,252 @@
+{
+   "timestamp": "2022-06-14T17:48:29.149570",
+   "vintages": [
+      {
+         "shortName": "Hazardous Waste Combustion Facilities",
+         "disposalFacilityTypeId": 2,
+         "facilitySubtypeId": 1,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Municipal Combustion Facilities",
+         "disposalFacilityTypeId": 2,
+         "facilitySubtypeId": 3,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Medical/ Biohazardous Waste Incinerators",
+         "disposalFacilityTypeId": 2,
+         "facilitySubtypeId": 4,
+         "dateLastUpdate": "2015"
+      },
+      {
+         "shortName": "Inert or Construction and Demolition Landfills",
+         "disposalFacilityTypeId": 1,
+         "facilitySubtypeId": 5,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Municipal Solid Waste Landfills",
+         "disposalFacilityTypeId": 1,
+         "facilitySubtypeId": 6,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Centralized Waste Treatment Facilities",
+         "disposalFacilityTypeId": 3,
+         "facilitySubtypeId": 8,
+         "dateLastUpdate": "2016"
+      },
+      {
+         "shortName": "Publicly Owned Treatment Works",
+         "disposalFacilityTypeId": 3,
+         "facilitySubtypeId": 9,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Federally Owned Treatment Works",
+         "disposalFacilityTypeId": 3,
+         "facilitySubtypeId": 10,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "RCRA Subtitle C Landfill",
+         "disposalFacilityTypeId": 1,
+         "facilitySubtypeId": 11,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Commercial Autoclaves",
+         "disposalFacilityTypeId": 5,
+         "facilitySubtypeId": 14,
+         "dateLastUpdate": "2016"
+      },
+      {
+         "shortName": "Electric Arc Furnaces",
+         "disposalFacilityTypeId": 5,
+         "facilitySubtypeId": 16,
+         "dateLastUpdate": "2015"
+      },
+      {
+         "shortName": "Transfer Stations",
+         "disposalFacilityTypeId": 7,
+         "facilitySubtypeId": 17,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Wood-Fired Boilers",
+         "disposalFacilityTypeId": 5,
+         "facilitySubtypeId": 19,
+         "dateLastUpdate": "2015"
+      },
+      {
+         "shortName": "Government-Owned Land/Facilities",
+         "disposalFacilityTypeId": 6,
+         "facilitySubtypeId": 20,
+         "dateLastUpdate": "2015"
+      },
+      {
+         "shortName": "Commercial Radioactive Waste Disposal Facilities",
+         "disposalFacilityTypeId": 5,
+         "facilitySubtypeId": 21,
+         "dateLastUpdate": "2015"
+      },
+      {
+         "shortName": "Federal Radioactive Waste Disposal Facilities",
+         "disposalFacilityTypeId": 5,
+         "facilitySubtypeId": 22,
+         "dateLastUpdate": "2008"
+      },
+      {
+         "shortName": "RCRA Subtitle C Landfill with Low Activity Radioactive Waste Authority",
+         "disposalFacilityTypeId": 1,
+         "facilitySubtypeId": 23,
+         "dateLastUpdate": "2015"
+      },
+      {
+         "shortName": "Rendering Facilities",
+         "disposalFacilityTypeId": 5,
+         "facilitySubtypeId": 24,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Industrial Waste Landfills",
+         "disposalFacilityTypeId": 1,
+         "facilitySubtypeId": 30,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Sewage Sludge Incinerators",
+         "disposalFacilityTypeId": 5,
+         "facilitySubtypeId": 31,
+         "dateLastUpdate": "2020"
+      },
+      {
+         "shortName": "C&D Recyclers",
+         "disposalFacilityTypeId": 7,
+         "facilitySubtypeId": 33,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Composting",
+         "disposalFacilityTypeId": 7,
+         "facilitySubtypeId": 34,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Demolition Contractors",
+         "disposalFacilityTypeId": 7,
+         "facilitySubtypeId": 35,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Electronics Recyclers",
+         "disposalFacilityTypeId": 7,
+         "facilitySubtypeId": 36,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Household Hazardous Waste Collection",
+         "disposalFacilityTypeId": 7,
+         "facilitySubtypeId": 37,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Metal Recyclers",
+         "disposalFacilityTypeId": 7,
+         "facilitySubtypeId": 38,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Tire Recyclers",
+         "disposalFacilityTypeId": 7,
+         "facilitySubtypeId": 39,
+         "dateLastUpdate": "2021"
+      },
+      {
+         "shortName": "Vehicle Recyclers",
+         "disposalFacilityTypeId": 7,
+         "facilitySubtypeId": 40,
+         "dateLastUpdate": "2021"
+      }
+   ],
+   "wasteGroupings": [
+      {
+         "wasteType": "Radioactive: Contact-Handled",
+         "facilitySubtypeIds": [
+            21,
+            22
+         ],
+         "dateLastUpdate": [
+            "2008",
+            "2015"
+         ]
+      },
+      {
+         "wasteType": "Radioactive: Remote-Handled",
+         "facilitySubtypeIds": [
+            21,
+            22
+         ],
+         "dateLastUpdate": [
+            "2008",
+            "2015"
+         ]
+      },
+      {
+         "wasteType": "Low-Activity Radioactive Waste",
+         "facilitySubtypeIds": [
+            21,
+            22,
+            23
+         ],
+         "dateLastUpdate": [
+            "2008",
+            "2015"
+         ]
+      },
+      {
+         "wasteType": "Hazardous",
+         "facilitySubtypeIds": [
+            1,
+            4,
+            11
+         ],
+         "dateLastUpdate": [
+            "2015",
+            "2021"
+         ]
+      },
+      {
+         "wasteType": "Municipal Solid Waste (MSW)",
+         "facilitySubtypeIds": [
+            3,
+            6
+         ],
+         "dateLastUpdate": [
+            "2021"
+         ]
+      },
+      {
+         "wasteType": "Construction and Demolition",
+         "facilitySubtypeIds": [
+            5
+         ],
+         "dateLastUpdate": [
+            "2021"
+         ]
+      },
+      {
+         "wasteType": "Non-Hazardous Aqueous Waste",
+         "facilitySubtypeIds": [
+            8,
+            9,
+            10
+         ],
+         "dateLastUpdate": [
+            "2016",
+            "2021"
+         ]
+      }
+   ]
+}
