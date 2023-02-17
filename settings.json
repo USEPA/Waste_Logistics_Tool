@@ -1,0 +1,1140 @@
+{
+    "Conditions": [
+       {
+          "ConditionID": "Default"
+         ,"RoadTollsPerRoadShipment": 0
+         
+         ,"MiscCostPerRoadShipment": 0
+         ,"MiscCostPerRailShipment": 0
+         
+         ,"RoadTransporterDeconCostPerRoadShipment": 0
+         ,"RailTransporterDeconCostPerRailShipment": 0
+         
+         ,"StagingSiteCost": 0
+         
+         ,"RoadDrivingHoursPerDay": 12
+         ,"RailDrivingHoursPerDay": 12
+         
+         ,"TotalCostMultiplier": 0.25
+       }
+      ,{
+          "ConditionID": "High"
+         ,"RoadTollsPerRoadShipment": 50
+         
+         ,"MiscCostPerRoadShipment": 0
+         ,"MiscCostPerRailShipment": 0
+         
+         ,"RoadTransporterDeconCostPerRoadShipment": 1000.00
+         ,"RailTransporterDeconCostPerRailShipment": 1000.00
+         
+         ,"StagingSiteCost": 2000.00
+         
+         ,"RoadDrivingHoursPerDay": 12
+         ,"RailDrivingHoursPerDay": 12
+         
+         ,"TotalCostMultiplier": 0.25
+       }        
+    ]
+   ,"TransporterAttributes": [
+       {
+          "Name": "Average Truck Hauling"
+         ,"Mode": "Road"
+         ,"Description": "An average truck scenario for waste removal"
+         ,"Transporters": [
+             {
+                "WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 151 
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+            ,{
+                "WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"ContainerCapacity": 6000 
+               ,"ContainerCapacityUnit": "gal"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+            ,{
+                "WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 151
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+            ,{
+                "WasteType": "Radioactive: Remote-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"ContainerCapacity": 6000
+               ,"ContainerCapacityUnit": "gal"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+            ,{
+                "WasteType": "Low-Activity Radioactive Waste"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 151 
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+            ,{
+                "WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 151 
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+            ,{
+                "WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Liquid"
+               ,"ContainerCapacity": 6000 
+               ,"ContainerCapacityUnit": "gal"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+            ,{
+                "WasteType": "Municipal Solid Waste (MSW)"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 151
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+            ,{
+                "WasteType": "Construction and Demolition"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 151
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+            ,{
+                "WasteType": "Non-Hazardous Aqueous Waste"
+               ,"WasteMedium": "Volume Liquid"
+               ,"ContainerCapacity": 6000
+               ,"ContainerCapacityUnit": "gal"
+               ,"ContainerCountPerTransporter": 1
+               ,"TransportersAvailable": 30
+               ,"TransportersProcessedPerDay": 15
+             }
+          ]
+       }
+      ,{
+          "Name": "Average Train Hauling"
+         ,"Mode": "Rail"
+         ,"Description": "An average train scenario for waste removal by rail"
+         ,"Transporters": [
+             {
+                "WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 194 
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 50
+               ,"TransportersAvailable": 1
+               ,"TransportersProcessedPerDay": 1
+             }
+            ,{
+                "WasteType": "Radioactive: Contact-Handled"
+               ,"WasteMedium": "Volume Liquid"
+               ,"ContainerCapacity": 13000 
+               ,"ContainerCapacityUnit": "gal"
+               ,"ContainerCountPerTransporter": 50
+               ,"TransportersAvailable": 1
+               ,"TransportersProcessedPerDay": 1
+             }
+            ,{
+                "WasteType": "Low-Activity Radioactive Waste"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 194 
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 50
+               ,"TransportersAvailable": 1
+               ,"TransportersProcessedPerDay": 1
+             }
+            ,{
+                "WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 194 
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 50
+               ,"TransportersAvailable": 1
+               ,"TransportersProcessedPerDay": 1
+             }
+            ,{
+                "WasteType": "Hazardous"
+               ,"WasteMedium": "Volume Liquid"
+               ,"ContainerCapacity": 13000 
+               ,"ContainerCapacityUnit": "gal"
+               ,"ContainerCountPerTransporter": 50
+               ,"TransportersAvailable": 1
+               ,"TransportersProcessedPerDay": 1
+             }
+            ,{
+                "WasteType": "Municipal Solid Waste (MSW)"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 194
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 50
+               ,"TransportersAvailable": 1
+               ,"TransportersProcessedPerDay": 1
+             }
+            ,{
+                "WasteType": "Construction and Demolition"
+               ,"WasteMedium": "Volume Solid"
+               ,"ContainerCapacity": 194
+               ,"ContainerCapacityUnit": "yd3"
+               ,"ContainerCountPerTransporter": 50
+               ,"TransportersAvailable": 1
+               ,"TransportersProcessedPerDay": 1
+             }
+            ,{
+                "WasteType": "Non-Hazardous Aqueous Waste"
+               ,"WasteMedium": "Volume Liquid"
+               ,"ContainerCapacity": 13000
+               ,"ContainerCapacityUnit": "gal"
+               ,"ContainerCountPerTransporter": 50
+               ,"TransportersAvailable": 1
+               ,"TransportersProcessedPerDay": 1
+             }
+          ]
+       }
+    ]
+   ,"Factors": [
+       {
+          "FactorID": "Default"   
+         ,"RoutingModes": [
+             {
+                "Mode": "Road"
+               ,"Name": "Road"
+               ,"CPLMUnitRates": [
+                   {
+                      "CPLMDist_Lower": 0
+                     ,"CPLMDist_Upper": 30
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 5.94
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 0
+                     ,"CPLMDist_Upper": 30
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 5.94
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 0
+                     ,"CPLMDist_Upper": 30
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 11.7
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 0
+                     ,"CPLMDist_Upper": 30
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 11.7
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 0
+                     ,"CPLMDist_Upper": 30
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 5.94
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 0
+                     ,"CPLMDist_Upper": 30
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 3
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 0
+                     ,"CPLMDist_Upper": 30
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 3
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 30
+                     ,"CPLMDist_Upper": 200
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 4.98
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 30
+                     ,"CPLMDist_Upper": 200
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 4.98
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 30
+                     ,"CPLMDist_Upper": 200
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 7.85
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 30
+                     ,"CPLMDist_Upper": 200
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 7.85
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 30
+                     ,"CPLMDist_Upper": 200
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 4.98
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 30
+                     ,"CPLMDist_Upper": 200
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 2.50
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 30
+                     ,"CPLMDist_Upper": 200
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 2.50
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 200
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 4.00
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 200
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 4.00
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 200
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 4.90
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 200
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 4.90
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 200
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 4.00
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 200
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 1.95
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 200
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 1.95
+                     ,"Unit": "cost_per_mi"
+                   }
+                ]
+               ,"FixedTransCost": [
+                   {
+                      "FixedCost_Type": "By Volume"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 37.16216216
+                     ,"Unit": "cost_per_yd3"
+                   }
+                  ,{
+                      "FixedCost_Type": "By Volume"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"FixedCost_Value": 0.1838111
+                     ,"Unit": "cost_per_gal"
+                   }
+                  ,{
+                      "FixedCost_Type": "By Volume"
+                     ,"WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 650.5139677
+                     ,"Unit": "cost_per_yd3"
+                   }
+                  ,{
+                      "FixedCost_Type": "By Volume"
+                     ,"WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"FixedCost_Value": 3.22077922
+                     ,"Unit": "cost_per_gal"
+                   }
+                  ,{
+                      "FixedCost_Type": "By Volume"
+                     ,"WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 37.16216216
+                     ,"Unit": "cost_per_yd3"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per hour"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 55.9
+                     ,"Unit": "hour"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per hour"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"FixedCost_Value": 55.9
+                     ,"Unit": "hour"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per hour"
+                     ,"WasteType": "Municipal Solid Waste (MSW)"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 55.9
+                     ,"Unit": "hour"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per hour"
+                     ,"WasteType": "Construction and Demolition"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 55.9
+                     ,"Unit": "hour"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per hour"
+                     ,"WasteType": "Non-Hazardous Aqueous Waste"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"FixedCost_Value": 55.9
+                     ,"Unit": "hour"
+                   }
+                ]
+               ,"LaborCosts": {
+                   "LaborCost": 21.39
+                  ,"LaborCostCategory": "Heavy and Tractor-Trailer Truck Driver"
+                  ,"Unit": "hr"
+                }
+             }
+            
+            ,{
+                "Mode": "Rail"
+               ,"Name": "Rail"
+               ,"CPLMUnitRates": [
+                   {
+                      "CPLMDist_Lower": 500
+                     ,"CPLMDist_Upper": 1000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 2.32
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 500
+                     ,"CPLMDist_Upper": 1000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 2.32
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 500
+                     ,"CPLMDist_Upper": 1000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 2.32
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 500
+                     ,"CPLMDist_Upper": 1000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 1.96
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 500
+                     ,"CPLMDist_Upper": 1000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 1.96
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 1000
+                     ,"CPLMDist_Upper": 2000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 1.91
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 1000
+                     ,"CPLMDist_Upper": 2000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 1.91
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 1000
+                     ,"CPLMDist_Upper": 2000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 1.91
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 1000
+                     ,"CPLMDist_Upper": 2000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 1.74
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 1000
+                     ,"CPLMDist_Upper": 2000
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 1.74
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 2000
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 1.60
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 2000
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 1.60
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 2000
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 1.6
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 2000
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CPLMUnit_Rate": 1.46
+                     ,"Unit": "cost_per_mi"
+                   }
+                  ,{
+                      "CPLMDist_Lower": 2000
+                     ,"CPLMDist_Upper": 9999999
+                     ,"CPLMUnit": "mi"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CPLMUnit_Rate": 1.46
+                     ,"Unit": "cost_per_mi"
+                   }
+                ]
+               ,"FixedTransCost": [
+                   {
+                      "FixedCost_Type": "Per container"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 750.00
+                     ,"Unit": "container"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per container"
+                     ,"WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"FixedCost_Value": 750
+                     ,"Unit": "container"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per container"
+                     ,"WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 750
+                     ,"Unit": "container"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per container"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 750
+                     ,"Unit": "container"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per container"
+                     ,"WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"FixedCost_Value": 750
+                     ,"Unit": "container"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per container"
+                     ,"WasteType": "Municipal Solid Waste (MSW)"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 750
+                     ,"Unit": "container"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per container"
+                     ,"WasteType": "Construction and Demolition"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"FixedCost_Value": 750
+                     ,"Unit": "container"
+                   }
+                  ,{
+                      "FixedCost_Type": "Per container"
+                     ,"WasteType": "Non-Hazardous Aqueous Waste"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"FixedCost_Value": 750
+                     ,"Unit": "container"
+                   }
+                ]
+               ,"LaborCosts": {
+                   "LaborCost": 19.37
+                  ,"LaborCostCategory": "Tank Car, Truck, and Ship Loaders"
+                  ,"Unit": "hr"
+                }
+             }
+          ]
+       }
+    ]
+   ,"FacilityAttributesBySubtypeID": [
+       {
+          "FacilityAttributesID": "Default"
+         ,"FacilityAttributes": [
+             {
+                "FacilitySubtypeID": 8
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                  {
+                      "WasteType": "Non-Hazardous Aqueous Waste"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"VolumePerDay": 1000000000
+                     ,"VolumePerDayUnit": "gal"
+                  }
+                ]
+               ,"DisposalFees": [
+                  {
+                      "WasteType": "Non-Hazardous Aqueous Waste"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.0085
+                     ,"CostPerOneUnit": "gal"
+                  }
+                ]
+             }
+            ,{
+                "FacilitySubtypeID": 21
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                   {
+                      "WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 57.2
+                     ,"VolumePerDayUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"VolumePerDay": 11549.6
+                     ,"VolumePerDayUnit": "gal"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 1.4
+                     ,"VolumePerDayUnit": "yd3" 
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"VolumePerDay": 282.7
+                     ,"VolumePerDayUnit": "gal"
+                   }            
+                ]
+               ,"DisposalFees": [
+                   {
+                      "WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 46.40635
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.2085
+                     ,"CostPerOneUnit": "gal"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 87.87184
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.2085
+                     ,"CostPerOneUnit": "gal"
+                   }
+                ]
+             }
+            ,{
+                "FacilitySubtypeID": 5
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                  {
+                      "WasteType": "Construction and Demolition"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 275.0
+                     ,"VolumePerDayUnit": "yd3"
+                  }
+                ]
+               ,"DisposalFees": [
+                  {
+                      "WasteType": "Construction and Demolition"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 12.2711
+                     ,"CostPerOneUnit": "yd3"
+                  }
+                ]
+             }
+            ,{
+                "FacilitySubtypeID": 22
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                   {
+                      "WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 57.2
+                     ,"VolumePerDayUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"                  
+                     ,"VolumePerDay": 11549.6
+                     ,"VolumePerDayUnit": "gal"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 1.4
+                     ,"VolumePerDayUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Liquid"  
+                     ,"VolumePerDay": 282.7
+                     ,"VolumePerDayUnit": "gal"
+                   }            
+                ]
+               ,"DisposalFees": [
+                   {
+                      "WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 46.40635
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Contact-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.2085
+                     ,"CostPerOneUnit": "gal"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 87.87184
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Radioactive: Remote-Handled"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.2085
+                     ,"CostPerOneUnit": "gal"
+                   }
+                ]
+             }
+            ,{
+                "FacilitySubtypeID": 10
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                  {
+                      "WasteType": "Non-Hazardous Aqueous Waste"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"VolumePerDay": 1000000000
+                     ,"VolumePerDayUnit": "gal"
+                  }
+               
+                ]
+               ,"DisposalFees": [
+                  {
+                      "WasteType": "Non-Hazardous Aqueous Waste"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.0085
+                     ,"CostPerOneUnit": "gal"
+                  }
+                ]
+             }
+            ,{
+                "FacilitySubtypeID": 1
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                   {
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 191.87
+                     ,"VolumePerDayUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid" 
+                     ,"VolumePerDay": 38753.33
+                     ,"VolumePerDayUnit": "gal"
+                   }           
+                ]
+               ,"DisposalFees": [
+                   {
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 37.1251
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.1668
+                     ,"CostPerOneUnit": "gal"
+                   }
+                ]
+             }
+            ,{
+                "FacilitySubtypeID": 4
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                   {
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 191.87
+                     ,"VolumePerDayUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"                    
+                     ,"VolumePerDay": 38753.33
+                     ,"VolumePerDayUnit": "gal"
+                   }           
+                ]
+               ,"DisposalFees": [
+                   {
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 37.1251
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.1668
+                     ,"CostPerOneUnit": "gal"
+                   }
+                ]
+             }
+            ,{
+                "FacilitySubtypeID": 3
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                   {
+                      "WasteType": "Municipal Solid Waste (MSW)"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 1332.40
+                     ,"VolumePerDayUnit": "yd3" 
+                   }           
+                ]
+               ,"DisposalFees": [
+                  {
+                      "WasteType": "Municipal Solid Waste (MSW)"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 21.55
+                     ,"CostPerOneUnit": "yd3"
+                  }
+                ]
+             } 
+            ,{
+                "FacilitySubtypeID": 6
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                   {
+                      "WasteType": "Municipal Solid Waste (MSW)"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 4725.7
+                     ,"VolumePerDayUnit": "yd3" 
+                   }
+                  ,{
+                      "WasteType": "Construction and Demolition"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 4725.7
+                     ,"VolumePerDayUnit": "yd3" 
+                   }                 
+                ]
+               ,"DisposalFees": [
+                   {
+                      "WasteType": "Municipal Solid Waste (MSW)"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 12.2711
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Construction and Demolition"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 12.2711
+                     ,"CostPerOneUnit": "yd3"
+                  }
+                ]
+             }
+            ,{
+                "FacilitySubtypeID": 9
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                  {
+                      "WasteType": "Non-Hazardous Aqueous Waste"
+                     ,"WasteMedium": "Volume Liquid" 
+                     ,"VolumePerDay": 1000000000
+                     ,"VolumePerDayUnit": "gal"
+                  }
+               
+                ]
+               ,"DisposalFees": [
+                  {
+                      "WasteType": "Non-Hazardous Aqueous Waste"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.0085
+                     ,"CostPerOneUnit": "gal"
+                  }
+                ]
+             }          
+            ,{
+                "FacilitySubtypeID": 11
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                   {
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 6912.8
+                     ,"VolumePerDayUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"                    
+                     ,"VolumePerDay": 5283.4
+                     ,"VolumePerDayUnit": "gal"
+                   }           
+                ]
+               ,"DisposalFees": [
+                   {
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 37.1251
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.1668
+                     ,"CostPerOneUnit": "gal"
+                   }
+                ]
+             }
+            ,{
+                "FacilitySubtypeID": 23
+               ,"TotalAcceptedDays": 90
+               ,"DailyThroughput": [
+                   {
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 6912.8
+                     ,"VolumePerDayUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"                    
+                     ,"VolumePerDay": 5283.4
+                     ,"VolumePerDayUnit": "gal"
+                   }
+                  ,{
+                      "WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"VolumePerDay": 6912.8
+                     ,"VolumePerDayUnit": "yd3"
+                   }                
+                ]
+               ,"DisposalFees": [
+                   {
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 37.1251
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                  ,{
+                      "WasteType": "Hazardous"
+                     ,"WasteMedium": "Volume Liquid"
+                     ,"CostPerOne": 0.1668
+                     ,"CostPerOneUnit": "gal"
+                   }
+                  ,{
+                      "WasteType": "Low-Activity Radioactive Waste"
+                     ,"WasteMedium": "Volume Solid"
+                     ,"CostPerOne": 46.40635
+                     ,"CostPerOneUnit": "yd3"
+                   }
+                ]
+             }
+          ]
+       }
+    ]
+   ,"IWasteImport": {
+       "IWasteDisposalFacilitySubtypes": "https://iwaste.epa.gov/api/disposal-facility-subtypes"
+      ,"IWasteFacilitiesExport": "https://iwaste.epa.gov/api/facilities/export"
+      ,"acceptedMaps": [
+          {
+             "WasteType": "Radioactive: Contact-Handled"
+            ,"facilitySubtypeIDs": [21,22]
+            ,"accepted": "RAD_accepted"
+          }
+         ,{
+             "WasteType": "Radioactive: Remote-Handled"
+            ,"facilitySubtypeIDs": [21,22]
+            ,"accepted": "RAD_accepted"
+          }
+         ,{
+             "WasteType": "Low-Activity Radioactive Waste"
+            ,"facilitySubtypeIDs": [21,22,23]
+            ,"accepted": "LARWRad_accepted"
+          }
+         ,{
+             "WasteType": "Hazardous"
+            ,"facilitySubtypeIDs": [1,4,11]
+            ,"accepted": "HW_accepted"
+          }
+         ,{
+             "WasteType": "Municipal Solid Waste (MSW)"
+            ,"facilitySubtypeIDs": [3,6]
+            ,"accepted": "MSW_accepted"
+          }
+         ,{
+             "WasteType": "Construction and Demolition"
+            ,"facilitySubtypeIDs": [5]
+            ,"accepted": "C_D_accepted"
+          }
+         ,{
+             "WasteType": "Non-Hazardous Aqueous Waste"
+            ,"facilitySubtypeIDs": [8,9,10]
+            ,"accepted": "NHAW_accepted"
+          }
+       ]
+   }
+   ,"SystemCache": {
+       "Default_Unit_System": "Metric"
+      ,"Default_NumberOfFacilities": 3
+    }
+   ,"LastUpdatedDate": "2022-05-23T06:00:00.000Z"
+   ,"LastUpdatedBy": "pdziemie"
+}

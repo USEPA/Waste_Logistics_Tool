@@ -1,12 +1,12 @@
 # All Hazards Waste Logistics Tool
 
-The All Hazards Waste Logistics Tool addresses the need to evaluate considerations related to the resource demands associated with transporting and disposing of large volumes of waste. The tool calculates the cost and time to manage a user-specified quantify of waste and allows users to run routing scenarios with user-defined destinations. Factors specific to waste type, hauling rates, and acceptance rates allow users to explore options and evaluate constraints to improve preparedness for managing large volumes of waste. The Waste Staging and Storage Site Selection Tool was designed to work in tandem with the All Hazards Waste Logistics Tool to identify potential staging locations to be included in the logistics decision-making process. 
+The All Hazards Waste Logistics Tool addresses the need to evaluate considerations related to the resource demands associated with transporting and disposing of large volumes of waste. The tool calculates the cost and time to manage a user-specified quantify of waste and allows users to run routing scenarios with user-defined destinations. Factors specific to waste type, hauling rates, and acceptance rates allow users to explore options and evaluate constraints to improve preparedness for managing large volumes of waste. The [Waste Staging and Storage Site Selection Tool](https://github.com/USEPA/Waste_Staging_Tool) was designed to work in tandem with the All Hazards Waste Logistics Tool to identify potential staging locations to be included in the logistics decision-making process. 
 
-Access the [All Hazards Waste Logistics Tool User's Guide](/Docs/Final_All-Hazards-Logistics-Tool-Users-Guide_052720.docx) for step-by-step instructions to use the tool.
+Access the [All Hazards Waste Logistics Tool User's Guide](/docs/Final_All-Hazards-Logistics-Tool-v2-Users-Guide_090922.docx) for step-by-step instructions to use the tool.
 
 ## Documentation
-- [How to contribute to the project](/Docs/CONTRIBUTING.md), learn how to help improve the application. 
-- [Changelog](/Docs/CHANGELOG.md), high-level information about the changes in each release.
+- [How to contribute to the project](/docs/CONTRIBUTING.md), learn how to help improve the application. 
+- [Changelog](/docs/CHANGELOG.md), high-level information about the changes in each release.
 
 ## Disclaimer
 
